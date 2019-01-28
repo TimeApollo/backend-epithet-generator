@@ -1,6 +1,7 @@
 from sprint_a import app
 import flask
 
+
 @app.route('/')
 def generate_epithets():
     epithets_dict = {"epithets": []}
